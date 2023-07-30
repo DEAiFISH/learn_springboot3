@@ -2,7 +2,6 @@ package com.deaifish.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @description TODO
@@ -15,6 +14,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainApplication {
     public static void main(String[] args) {
         //固定写法
-        SpringApplication.run(MainApplication.class,args);
+        SpringApplication.run(MainApplication.class, args);
     }
 }
