@@ -1,0 +1,16 @@
+2023-07-31 15:40:01.738  INFO 26920 --- [main] c.d.b.MainApplication                    : Starting MainApplication using Java 17.0.2 with PID 26920 (/Users/qingyuan/Library/Mobile Documents/com~apple~CloudDocs/code/spring-boot-3/boot3-03-demo/target/classes started by qingyuan in /Users/qingyuan/Library/Mobile Documents/com~apple~CloudDocs/code/spring-boot-3)
+2023-07-31 15:40:01.741  INFO 26920 --- [main] c.d.b.MainApplication                    : No active profile set, falling back to 1 default profile: "default"
+2023-07-31 15:40:02.227  INFO 26920 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-07-31 15:40:02.240  INFO 26920 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-07-31 15:40:02.240  INFO 26920 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-31 15:40:02.296  INFO 26920 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-07-31 15:40:02.297  INFO 26920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+2023-07-31 15:40:02.534  WARN 26920 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-07-31 15:40:02.642  INFO 26920 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-31 15:40:02.670  INFO 26920 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-31 15:40:02.679  INFO 26920 --- [main] c.d.b.MainApplication                    : Started MainApplication in 1.166 seconds (process running for 1.502)
+2023-07-31 15:40:03.300  INFO 26920 --- [RMI TCP Connection(2)-192.168.0.102] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-31 15:40:03.300  INFO 26920 --- [RMI TCP Connection(2)-192.168.0.102] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-07-31 15:40:03.302  INFO 26920 --- [RMI TCP Connection(2)-192.168.0.102] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-07-31 15:40:53.788  INFO 26920 --- [http-nio-8080-exec-1] c.d.b.c.HelloController                  : 哈哈
+2023-07-31 15:40:53.921  INFO 26920 --- [http-nio-8080-exec-2] c.d.b.c.HelloController                  : 哈哈

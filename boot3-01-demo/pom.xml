@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>boote-01-demo</artifactId>
+    <artifactId>boot3-01-demo</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

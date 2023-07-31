@@ -1,7 +1,9 @@
 package com.deaifish.boot;
 
+import com.deaifish.boot.bean.Person;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * @description TODO
@@ -14,6 +16,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MainApplication {
     public static void main(String[] args) {
         //固定写法
-        SpringApplication.run(MainApplication.class, args);
+        ConfigurableApplicationContext ioc = SpringApplication.run(MainApplication.class, args);
+
+        Person person = ioc.getBean(Person.class);
+        System.out.println(person);
     }
 }

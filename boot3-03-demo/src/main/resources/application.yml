@@ -1,0 +1,22 @@
+logging:
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+  group: #分组
+    aaa:
+      - controller
+      - abc
+      - ccc
+  level: #日志打印级别管理
+    sql: info
+    aaa: info #组管理打印级别
+  file: #指定日志输出
+    #    path: boot3-03-demo/src/main/resource #指定输出路径
+    #    指定日志文件名
+    #    1、只写名字，默认生成到当前项目的根目录
+    #    2、写名字+路径：生成到指定位置的指定文件
+    name: boot3-03-demo/src/main/resources/tmp/demo.log
+  #    归档、切割
+  logback:
+    rollingpolicy:
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz
+      max-file-size: 1MB

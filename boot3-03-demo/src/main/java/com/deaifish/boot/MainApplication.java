@@ -2,11 +2,11 @@ package com.deaifish.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class Boot302DemoApplication {
+public class MainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Boot302DemoApplication.class, args);
+        ConfigurableApplicationContext ioc = SpringApplication.run(MainApplication.class);
     }
-
 }
