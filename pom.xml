@@ -12,6 +12,7 @@
         <module>boot3-01-demo</module>
         <module>boot3-02-demo</module>
         <module>boot3-03-demo</module>
+        <module>boot3-04-demo</module>
     </modules>
 
     <!--    所有springboot项目都必须继承自 spring-boot-starter-parent -->
