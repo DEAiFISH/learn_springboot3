@@ -18,6 +18,7 @@ spring:
         - classpath:/a/
         - classpath:/b/
         - classpath:/static/
+        - classpath:/
 
 
   # 2、spring.mvc
@@ -26,3 +27,16 @@ spring:
     webjars-path-pattern: /wj/**
 #   2.静态资源访问路径前缀
     static-path-pattern: /static/**
+#   3.改变路径匹配新规则
+#     ant_path_matcher 老版策略
+#     path_pattern_parser 新版策略（默认）
+#   4.开启基于请求参数的内容协商功能。默认参数名：format
+    pathmatch:
+      matching-strategy: path_pattern_parser
+    contentnegotiation:
+      favor-parameter: true
+#     修改参数名
+      parameter-name: type
+#     新增一种媒体类型
+      media-types:
+        yaml: text/yaml
