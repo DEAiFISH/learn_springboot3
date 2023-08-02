@@ -97,6 +97,8 @@ public class MyYamlHttpMessageConverter extends AbstractHttpMessageConverter<Obj
         person.setAge(18);
 
         YAMLFactory factory = new YAMLFactory().disable(YAMLGenerator.Feature.WRITE_DOC_START_MARKER);
+
+        //转JSON、XMl...都需要ObjectMapper
         ObjectMapper mapper = new ObjectMapper(factory);
 
         String s = mapper.writeValueAsString(person);
