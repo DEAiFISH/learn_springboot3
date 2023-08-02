@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.deaifish.boot</groupId>
-    <artifactId>boot3-03-demo</artifactId>
+    <artifactId>boot3-03-logging</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

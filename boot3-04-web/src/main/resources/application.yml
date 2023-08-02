@@ -1,0 +1,28 @@
+# 1、spring.web:
+#   1.配置国际化的区域信息
+#   2.静态资源策略（开启、处理链、缓存）
+spring:
+  web:
+    resources:
+      add-mappings: true # 开启静态资源映射规则
+
+      cache:
+        period: 3600 # 设置缓存
+        cachecontrol:
+          # 缓存详细合并项控制，覆盖period配置：
+          # 浏览器第一次请求服务器，服务器告诉浏览器此资源缓存7200秒，7200秒以内的所有此资源访问不用发给服务器请求
+          max-age: 7200
+        use-last-modified: true # 使用资源 last-modified 时间，来对比服务器和浏览器的资源是否没有变化，相同返回304
+      # 自定义静态资源文件夹的位置
+      static-locations:
+        - classpath:/a/
+        - classpath:/b/
+        - classpath:/static/
+
+
+  # 2、spring.mvc
+#   1.自定义文本jars路径前缀
+  mvc:
+    webjars-path-pattern: /wj/**
+#   2.静态资源访问路径前缀
+    static-path-pattern: /static/**
