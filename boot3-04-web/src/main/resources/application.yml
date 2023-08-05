@@ -40,3 +40,7 @@ spring:
 #     新增一种媒体类型
       media-types:
         yaml: text/yaml
+
+
+  #3、Thymeleaf
+#  1.
