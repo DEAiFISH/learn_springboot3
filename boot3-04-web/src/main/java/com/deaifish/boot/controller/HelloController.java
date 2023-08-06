@@ -1,14 +1,8 @@
 package com.deaifish.boot.controller;
 
 import com.deaifish.boot.bean.Person;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @description TODO
@@ -30,9 +24,11 @@ public class HelloController {
      * @return com.deaifish.boot.bean.Person
      */
     @GetMapping("/person")
-    public Person person(){
+    public Person person() {
         Person person = new Person(1L, "cxx", "123", 10);
         log.info(person.toString());
+        int i = 10 / 0;
         return person;
     }
+
 }

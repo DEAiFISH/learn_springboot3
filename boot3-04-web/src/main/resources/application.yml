@@ -43,4 +43,11 @@ spring:
 
 
   #3、Thymeleaf
-#  1.
+#   1.
+
+
+  #4、错误配置
+server:
+  error:
+#   1.当错误发生以后，错误请求转发给 /error 进行处理
+    path: /error
