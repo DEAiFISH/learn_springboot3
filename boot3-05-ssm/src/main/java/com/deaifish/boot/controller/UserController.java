@@ -3,6 +3,7 @@ package com.deaifish.boot.controller;
 import com.deaifish.boot.bean.TUser;
 import com.deaifish.boot.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author DEAiFISH
  * @date 2023/8/12 19:50
  */
-@RestController
+@RestController()
 public class UserController {
     @Autowired
     private UserMapper userMapper;
@@ -27,7 +28,7 @@ public class UserController {
      * @param id
      * @return com.deaifish.boot.bean.TUser
      */
-    @GetMapping("/user/{id}")
+    @GetMapping(value = "/user/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
     public TUser getUser(@PathVariable("id") int id){
         return userMapper.getUserById(id);
     }
