@@ -1,0 +1,49 @@
+spring:
+  data:
+    #连接单机
+    redis:
+      database: 0
+      host: 172.20.10.2
+      port: 6379
+      password: root
+      lettuce:
+        pool:
+          max-active: 8
+          max-wait: -1ms
+          max-idle: 8
+          min-idle: 0
+    #连接集群
+#    redis:
+#      password: root
+#      cluster:
+#        max-redirects: 3
+#        nodes:
+#          - 192.168.1.1:8080
+#          -
+#      lettuce:
+#        pool:
+#          max-active: 8
+#          min-wait: -1ms
+#          max-idle: 8
+#          min-idle: 0
+#        cluster:
+#          refresh:
+#            adaptive: true
+#            period: 2000ms
+
+
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/learn_spring
+    username: root
+    password: tmmKing4612.m
+
+mybatis:
+  mapper-locations: #指定mapper映射文件位置
+    - classpath:/mapper/*.xml   # 默认
+
+  configuration: #参数项调整
+    map-underscore-to-camel-case: true #开启驼峰
