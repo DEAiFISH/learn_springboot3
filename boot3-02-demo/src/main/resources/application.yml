@@ -17,9 +17,9 @@ pig:
   name: 程莉茹
 
 sheep:
-  id: 2
-  name: clr
-  age: 3
+  id: 1
+  name: 肖恩
+  age: 5
 
 server:
   port: 8080
