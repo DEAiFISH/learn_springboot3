@@ -27,7 +27,7 @@ import org.springframework.context.annotation.Scope;
     1、开启sheep组件的属性绑定
     2、默认把组件（sheep）放到容器中
  */
-@EnableConfigurationProperties(Sheep.class) //用于导入第三方写好的组件进行属性绑定
+@EnableConfigurationProperties(Sheep.class) //主要π用于导入第三方写好的组件进行属性绑定
 /*
     SpringBoot默认只扫描自己主程序所在的包。
     如果导入第三方包，即使组件上标注了 @Component、@ConfigurationProperties 注解，也没用。
