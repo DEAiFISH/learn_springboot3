@@ -24,7 +24,6 @@ import org.springframework.context.annotation.Scope;
 /*
     @ConfigurationProperties： 声明组件的属性和配置文件哪些前缀开始项进行绑定
     @EnableConfigurationProperties：快速注册注解：
-
     1、开启sheep组件的属性绑定
     2、默认把组件（sheep）放到容器中
  */
