@@ -3,7 +3,7 @@
   <component name="fastRequestCurrentProjectLocalConfig">
     <option name="domain" value="http://localhost:8080" />
     <option name="enableEnv" value="local" />
-    <option name="enableProject" value="boot3-redis7-study" />
+    <option name="enableProject" value="boot3-04-web" />
     <option name="initFlag" value="1" />
   </component>
 </project>

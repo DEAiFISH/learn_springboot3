@@ -27,7 +27,7 @@ public class HelloController {
     public Person person() {
         Person person = new Person(1L, "cxx", "123", 10);
         log.info(person.toString());
-        int i = 10 / 0;
+//        int i = 10 / 0;
         return person;
     }
 

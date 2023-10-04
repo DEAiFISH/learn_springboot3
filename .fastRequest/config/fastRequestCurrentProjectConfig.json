@@ -8,17 +8,33 @@
 				}
 			],
 			"name":"boot3-redis7-study"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-04-web"
 		}
 	],
 	"envList":[
 		"local"
 	],
-	"headerList":[],
+	"headerList":[
+		{
+			"enabled":true,
+			"type":"Accept",
+			"value":"application/json"
+		}
+	],
 	"maxDescriptionLength":-1,
 	"postScript":"",
 	"preScript":"",
 	"projectList":[
-		"boot3-redis7-study"
+		"boot3-redis7-study",
+		"boot3-04-web"
 	],
 	"syncModel":{
 		"branch":"master",

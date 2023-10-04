@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="fastRequestCurrentParamGroup">
-    <option name="className" value="com.deaifish.boot.redis7.controller.OrderController" />
+    <option name="className" value="com.deaifish.boot.controller.HelloController" />
     <option name="filePath" value="" />
-    <option name="method" value="getOrderById" />
-    <option name="module" value="boot3-redis7-study" />
-    <option name="originUrl" value="/order/{keyId}" />
-    <option name="pathParamMap">
-      <map>
-        <entry key="keyId">
-          <value>
-            <Object />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-    <option name="url" value="/order/1" />
+    <option name="method" value="person" />
+    <option name="module" value="boot3-04-web" />
+    <option name="originUrl" value="/person" />
+    <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;userName&quot;:&quot;No comment,Type =String&quot;,&quot;email&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+    <option name="url" value="/person" />
   </component>
 </project>
