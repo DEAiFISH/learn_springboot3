@@ -15,6 +15,7 @@
         <module>boot3-04-web</module>
         <module>boot3-05-ssm</module>
         <module>boot3-redis7-study</module>
+        <module>boot3-07-core</module>
     </modules>
 
     <!--    所有springboot项目都必须继承自 spring-boot-starter-parent -->
