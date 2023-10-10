@@ -1,6 +1,7 @@
 package org.deaifish.boot3.core.controller;
 
 import org.deaifish.boot3.core.entity.UserEntity;
+import org.deaifish.boot3.core.event.EventPublisher;
 import org.deaifish.boot3.core.event.LoginEvent;
 import org.deaifish.boot3.core.service.AccountService;
 import org.deaifish.boot3.core.service.CouponService;
@@ -36,8 +37,9 @@ public class LoginController {
 
         //发送事件
         //创建事件信息
-        new LoginEvent(new UserEntity(userName,passwd));
+        LoginEvent event = new LoginEvent(new UserEntity(userName, passwd));
         //发送事件信息
+        new EventPublisher().sendEvent(event);
 
 
 
