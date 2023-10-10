@@ -1,6 +1,5 @@
 package org.deaifish.boot3.core.event;
 
-import org.deaifish.boot3.core.entity.UserEntity;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;

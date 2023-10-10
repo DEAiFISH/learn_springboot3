@@ -1,1 +1,3 @@
 org.springframework.boot.SpringApplicationRunListener=org.deaifish.boot3.core.listener.MyAppListener
+
+org.springframework.context.ApplicationListener=org.deaifish.boot3.core.listener.MyListener

@@ -17,6 +17,15 @@
 				}
 			],
 			"name":"boot3-04-web"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-07-core"
 		}
 	],
 	"envList":[
@@ -34,7 +43,8 @@
 	"preScript":"",
 	"projectList":[
 		"boot3-redis7-study",
-		"boot3-04-web"
+		"boot3-04-web",
+		"boot3-07-core"
 	],
 	"syncModel":{
 		"branch":"master",
