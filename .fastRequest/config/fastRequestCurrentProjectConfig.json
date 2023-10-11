@@ -26,6 +26,15 @@
 				}
 			],
 			"name":"boot3-07-core"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-08-robot-starter"
 		}
 	],
 	"envList":[
@@ -44,7 +53,8 @@
 	"projectList":[
 		"boot3-redis7-study",
 		"boot3-04-web",
-		"boot3-07-core"
+		"boot3-07-core",
+		"boot3-08-robot-starter"
 	],
 	"syncModel":{
 		"branch":"master",

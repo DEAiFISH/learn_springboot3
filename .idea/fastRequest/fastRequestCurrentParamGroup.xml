@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="fastRequestCurrentParamGroup">
-    <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
+    <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
     <option name="filePath" value="" />
-    <option name="method" value="login" />
-    <option name="module" value="boot3-07-core" />
-    <option name="originUrl" value="/login" />
-    <option name="requestParamMap">
-      <map>
-        <entry key="passwd">
-          <value>
-            <Object />
-          </value>
-        </entry>
-        <entry key="userName">
-          <value>
-            <Object />
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="method" value="hello" />
+    <option name="module" value="boot3-08-robot-starter" />
+    <option name="originUrl" value="/robot/hello" />
     <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-    <option name="url" value="/login" />
+    <option name="url" value="/robot/hello" />
   </component>
 </project>
