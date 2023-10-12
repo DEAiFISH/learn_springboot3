@@ -4,503 +4,509 @@
     <option name="historyList">
       <list>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="getEmps" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="method" value="getEmps" />
+              <option name="methodDescription" value="getEmps" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/emp" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="returnDocument" value="[{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}]" />
+              <option name="url" value="/emp" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::22::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;name_q3rm8&quot;,&quot;age&quot;:1},{&quot;id&quot;:2,&quot;name&quot;:&quot;clr&quot;,&quot;age&quot;:1}]" />
+          <option name="url" value="/emp" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="getEmpById" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="method" value="getEmpById" />
+              <option name="methodDescription" value="getEmpById" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="originUrl" value="/emp/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/emp/1" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::22::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;name_q3rm8&quot;,&quot;age&quot;:1}" />
+          <option name="url" value="/emp/1" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="addEmp" />
+          <option name="methodType" value="POST" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;clr&quot;,&#10;  &quot;age&quot;: 1&#10;}" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_551h0&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
+              <option name="method" value="addEmp" />
+              <option name="methodDescription" value="addEmp" />
+              <option name="methodType" value="POST" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/emp" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="url" value="/emp" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::22::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 42&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;clr&quot;,&#10;  &quot;age&quot;: 1&#10;}&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/emp" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="addEmp" />
+          <option name="methodType" value="POST" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;name_q3rm8&quot;,&#10;  &quot;age&quot;: 1&#10;}" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_q3rm8&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
+              <option name="method" value="addEmp" />
+              <option name="methodDescription" value="addEmp" />
+              <option name="methodType" value="POST" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/emp" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="url" value="/emp" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::22::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 49&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;name_q3rm8&quot;,&#10;  &quot;age&quot;: 1&#10;}&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/emp" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="getEmpById" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="method" value="getEmpById" />
+              <option name="methodDescription" value="getEmpById" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="originUrl" value="/emp/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/emp/2" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::22::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp/2&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="url" value="/emp/2" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="Connection refused" />
-          <option name="url" value="/robot/hello" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-08-robot-starter" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="getEmpById" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot3.robot.starter.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="method" value="getEmpById" />
+              <option name="methodDescription" value="getEmpById" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="originUrl" value="/emp/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/emp/1" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::21::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;name_5xoc6&quot;,&quot;age&quot;:1}" />
+          <option name="url" value="/emp/1" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-          <option name="code" value="404" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/root/hello" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/root/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-11T09:39:17.383+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;No message available&quot;,&quot;path&quot;:&quot;/root/hello&quot;}" />
-          <option name="url" value="/root/hello" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-          <option name="code" value="404" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-11T09:38:45.127+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;No message available&quot;,&quot;path&quot;:&quot;/&quot;}" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-          <option name="code" value="404" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-11T09:38:15.068+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;No message available&quot;,&quot;path&quot;:&quot;/&quot;}" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="getEmpById" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="method" value="getEmpById" />
+              <option name="methodDescription" value="getEmpById" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="originUrl" value="/emp/{id}" />
+              <option name="pathParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;id&quot;,&quot;type&quot;:&quot;Number&quot;,&quot;value&quot;:&quot;1&quot;}]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/emp/1" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::21::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp/1&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;name_5xoc6&quot;,&quot;age&quot;:1}" />
+          <option name="url" value="/emp/1" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
-          <option name="methodType" value="GET" />
+          <option name="enableProject" value="boot3-10-openAPI" />
+          <option name="method" value="addEmp" />
+          <option name="methodType" value="POST" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;name_5xoc6&quot;,&#10;  &quot;age&quot;: 1&#10;}" />
+              <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_5xoc6&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;&#10;}" />
+              <option name="method" value="addEmp" />
+              <option name="methodDescription" value="addEmp" />
+              <option name="methodType" value="POST" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/emp" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="url" value="/emp" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::cxx::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/emp&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 49&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;name_5xoc6&quot;,&#10;  &quot;age&quot;: 1&#10;}&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/emp" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/get" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::cxx::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;cxx&quot;,&quot;age&quot;:21}" />
+          <option name="url" value="/person/get" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/save" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::cxx::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/person/save" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/save" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::cxx::deaifish@Outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/person/save" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="hello" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.robot.controller.RobotController" />
-              <option name="method" value="hello" />
-              <option name="methodDescription" value="hello" />
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/robot/hello" />
+              <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/robot/hello" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/get" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/robot/hello&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="你好cxx::cxx::deaifish@outlook.com" />
-          <option name="url" value="/robot/hello" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="url" value="/person/get" />
         </ResponseHistory>
         <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="login" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-              <option name="method" value="login" />
-              <option name="methodDescription" value="login" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/login" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/login" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;userName_lowx3&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;passwd&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;passwd_lw4gi&quot;}]" />
-              <option name="urlParamsKeyValueListText" value="userName=userName_lowx3&#10;&amp;passwd=passwd_lw4gi" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/login?passwd=%70%61%73%73%77%64%5F%6C%77%34%67%69&amp;userName=%75%73%65%72%4E%61%6D%65%5F%6C%6F%77%78%33&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-10T11:37:06.224+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;trace&quot;:&quot;java.lang.NullPointerException: Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null\n\tat org.deaifish.boot3.core.event.EventPublisher.sendEvent(EventPublisher.java:31)\n\tat org.deaifish.boot3.core.controller.LoginController.login(LoginController.java:42)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n&quot;,&quot;message&quot;:&quot;Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null&quot;,&quot;path&quot;:&quot;/login&quot;}" />
-          <option name="url" value="/login" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="login" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-              <option name="method" value="login" />
-              <option name="methodDescription" value="login" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/login" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/login" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;userName_lowx3&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;passwd&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;passwd_lw4gi&quot;}]" />
-              <option name="urlParamsKeyValueListText" value="userName=userName_lowx3&#10;&amp;passwd=passwd_lw4gi" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/login?passwd=%70%61%73%73%77%64%5F%6C%77%34%67%69&amp;userName=%75%73%65%72%4E%61%6D%65%5F%6C%6F%77%78%33&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-10T11:35:57.556+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;trace&quot;:&quot;java.lang.NullPointerException: Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null\n\tat org.deaifish.boot3.core.event.EventPublisher.sendEvent(EventPublisher.java:31)\n\tat org.deaifish.boot3.core.controller.LoginController.login(LoginController.java:42)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n&quot;,&quot;message&quot;:&quot;Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null&quot;,&quot;path&quot;:&quot;/login&quot;}" />
-          <option name="url" value="/login" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="login" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-              <option name="method" value="login" />
-              <option name="methodDescription" value="login" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/login" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/login" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;userName_lowx3&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;passwd&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;passwd_lw4gi&quot;}]" />
-              <option name="urlParamsKeyValueListText" value="userName=userName_lowx3&#10;&amp;passwd=passwd_lw4gi" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/login?passwd=%70%61%73%73%77%64%5F%6C%77%34%67%69&amp;userName=%75%73%65%72%4E%61%6D%65%5F%6C%6F%77%78%33&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-10T11:26:02.304+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;trace&quot;:&quot;java.lang.NullPointerException: Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null\n\tat org.deaifish.boot3.core.event.EventPublisher.sendEvent(EventPublisher.java:32)\n\tat org.deaifish.boot3.core.controller.LoginController.login(LoginController.java:42)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n&quot;,&quot;message&quot;:&quot;Cannot invoke \&quot;org.springframework.context.ApplicationEventPublisher.publishEvent(org.springframework.context.ApplicationEvent)\&quot; because \&quot;this.applicationEventPublisher\&quot; is null&quot;,&quot;path&quot;:&quot;/login&quot;}" />
-          <option name="url" value="/login" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-07-core" />
-          <option name="method" value="login" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
           <option name="methodType" value="GET" />
           <option name="paramGroup">
             <ParamGroupCollection>
-              <option name="className" value="org.deaifish.boot3.core.controller.LoginController" />
-              <option name="method" value="login" />
-              <option name="methodDescription" value="login" />
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
               <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/login" />
+              <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/login" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/get" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;userName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;userName_lowx3&quot;},{&quot;comment&quot;:&quot;&quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;passwd&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;passwd_lw4gi&quot;}]" />
-              <option name="urlParamsKeyValueListText" value="userName=userName_lowx3&#10;&amp;passwd=passwd_lw4gi" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
             </ParamGroupCollection>
           </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/login?passwd=%70%61%73%73%77%64%5F%6C%77%34%67%69&amp;userName=%75%73%65%72%4E%61%6D%65%5F%6C%6F%77%78%33&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="userName_lowx3登录成功" />
-          <option name="url" value="/login" />
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;cxx&quot;,&quot;age&quot;:21}" />
+          <option name="url" value="/person/get" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/get" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/save" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/person/save" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="getPerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="getPerson" />
+              <option name="methodDescription" value="getPerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/get" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
+              <option name="url" value="/person/get" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;cxx&quot;,&quot;age&quot;:21}" />
+          <option name="url" value="/person/get" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="savePerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="savePerson" />
+              <option name="methodDescription" value="savePerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/save" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
+              <option name="url" value="/person/save" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/person/save" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.OrderController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="addOrder" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.OrderController" />
+              <option name="method" value="addOrder" />
+              <option name="methodDescription" value="addOrder" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/order/add" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="url" value="/order/add" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/order/add&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="url" value="/order/add" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="savePerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="savePerson" />
+              <option name="methodDescription" value="savePerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/save" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
+              <option name="url" value="/person/get" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="url" value="/person/get" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="savePerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="savePerson" />
+              <option name="methodDescription" value="savePerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/save" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
+              <option name="url" value="/person/get" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;cxx&quot;,&quot;age&quot;:21}" />
+          <option name="url" value="/person/get" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-09-redis7" />
+          <option name="method" value="savePerson" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
+              <option name="method" value="savePerson" />
+              <option name="methodDescription" value="savePerson" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/person/save" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
+              <option name="url" value="/person/save" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="ok" />
+          <option name="url" value="/person/save" />
         </ResponseHistory>
       </list>
     </option>

@@ -41,9 +41,9 @@ spring:
     username: root
     password: tmmKing4612.m
 
-mybatis:
-  mapper-locations: #指定mapper映射文件位置
-    - classpath:/mapper/*.xml   # 默认
-
-  configuration: #参数项调整
-    map-underscore-to-camel-case: true #开启驼峰
+#mybatis:
+#  mapper-locations: #指定mapper映射文件位置
+#    - classpath:/mapper/*.xml   # 默认
+#
+#  configuration: #参数项调整
+#    map-underscore-to-camel-case: true #开启驼峰

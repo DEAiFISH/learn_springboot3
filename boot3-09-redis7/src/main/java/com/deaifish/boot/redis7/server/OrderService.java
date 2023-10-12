@@ -1,10 +1,14 @@
 package com.deaifish.boot.redis7.server;
 
+import com.deaifish.boot.redis7.bean.Person;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.Objects;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -19,7 +23,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @Slf4j
 public class OrderService {
     public static final String ORDER_KEY = "ord:";
-    @Resource
+    @Autowired
 //    private RedisTemplate redisTemplate;
     private StringRedisTemplate stringRedisTemplate;
 

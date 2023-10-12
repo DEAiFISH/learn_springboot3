@@ -35,6 +35,24 @@
 				}
 			],
 			"name":"boot3-08-robot-starter"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-09-redis7"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-10-openAPI"
 		}
 	],
 	"envList":[
@@ -54,7 +72,9 @@
 		"boot3-redis7-study",
 		"boot3-04-web",
 		"boot3-07-core",
-		"boot3-08-robot-starter"
+		"boot3-08-robot-starter",
+		"boot3-09-redis7",
+		"boot3-10-openAPI"
 	],
 	"syncModel":{
 		"branch":"master",

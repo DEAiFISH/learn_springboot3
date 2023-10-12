@@ -7,7 +7,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>boot3-redis7-study</artifactId>
+    <artifactId>boot3-09-redis7</artifactId>
     <name>boott3-redis7-study Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>

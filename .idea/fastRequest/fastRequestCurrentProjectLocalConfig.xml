@@ -3,7 +3,7 @@
   <component name="fastRequestCurrentProjectLocalConfig">
     <option name="domain" value="http://localhost:8080" />
     <option name="enableEnv" value="local" />
-    <option name="enableProject" value="boot3-08-robot-starter" />
+    <option name="enableProject" value="boot3-10-openAPI" />
     <option name="initFlag" value="1" />
   </component>
 </project>
