@@ -1,6 +1,6 @@
 package com.atguigu.boot3.starter;
 
-import org.junit.jupiter.api.Tesøt;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
