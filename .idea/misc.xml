@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/boot3-07-core/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-10-openAPI/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-11-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-10-crud/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

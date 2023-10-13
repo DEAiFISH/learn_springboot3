@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.deaifish</groupId>
+            <groupId>com.atguigu</groupId>
             <artifactId>boot3-08-robot-starter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
