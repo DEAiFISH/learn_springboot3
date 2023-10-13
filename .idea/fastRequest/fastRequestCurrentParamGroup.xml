@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="fastRequestCurrentParamGroup">
-    <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
+    <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
     <option name="filePath" value="" />
-    <option name="method" value="getEmps" />
-    <option name="module" value="boot3-10-openAPI" />
-    <option name="originUrl" value="/emp" />
-    <option name="returnDocument" value="[{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}]" />
-    <option name="url" value="/emp" />
+    <option name="method" value="getIphoneByQQ" />
+    <option name="module" value="boot3-11-rpc" />
+    <option name="originUrl" value="/QQ2Iphone" />
+    <option name="requestParamMap">
+      <map>
+        <entry key="QQ">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="returnDocument" value="null" />
+    <option name="url" value="/QQ2Iphone" />
   </component>
 </project>

@@ -4,6 +4,110 @@
     <option name="historyList">
       <list>
         <ResponseHistory>
+          <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-11-rpc" />
+          <option name="method" value="getIphoneByQQ" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+              <option name="method" value="getIphoneByQQ" />
+              <option name="methodDescription" value="getIphoneByQQ" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/QQ2Iphone" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="null" />
+              <option name="url" value="/QQ2Iphone" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot; &quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;QQ&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1277676309&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="QQ=1277676309" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/QQ2Iphone?QQ=%31%32%37%37%36%37%36%33%30%39&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;status&quot;:200,&quot;message&quot;:&quot;查询成功&quot;,&quot;qq&quot;:&quot;1277676309&quot;,&quot;phone&quot;:&quot;18111457903&quot;,&quot;phonediqu&quot;:&quot;四川省乐山市电信&quot;}" />
+          <option name="url" value="/QQ2Iphone" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+          <option name="code" value="404" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-11-rpc" />
+          <option name="method" value="getIphoneByQQ" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+              <option name="method" value="getIphoneByQQ" />
+              <option name="methodDescription" value="getIphoneByQQ" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/QQ2Iphone" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="null" />
+              <option name="url" value="/1277676309" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot; &quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;QQ&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1277676309&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="QQ=1277676309" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/1277676309?QQ=%31%32%37%37%36%37%36%33%30%39&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-12T08:47:38.887+00:00&quot;,&quot;path&quot;:&quot;/1277676309&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:null,&quot;requestId&quot;:&quot;315db734-14&quot;}" />
+          <option name="url" value="/1277676309" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+          <option name="code" value="500" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-11-rpc" />
+          <option name="method" value="getIphoneByQQ" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+              <option name="method" value="getIphoneByQQ" />
+              <option name="methodDescription" value="getIphoneByQQ" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/QQ2Iphone" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="null" />
+              <option name="url" value="/QQ2Iphone" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot; &quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;QQ&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1277676309&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="QQ=1277676309" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/QQ2Iphone?QQ=%31%32%37%37%36%37%36%33%30%39&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-10-12T08:47:27.139+00:00&quot;,&quot;path&quot;:&quot;/QQ2Iphone&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;requestId&quot;:&quot;564733d0-13&quot;}" />
+          <option name="url" value="/QQ2Iphone" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="boot3-11-rpc" />
+          <option name="method" value="getIphoneByQQ" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.deaifish.boot3.rpc.controller.XApiController" />
+              <option name="method" value="getIphoneByQQ" />
+              <option name="methodDescription" value="getIphoneByQQ" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/QQ2Iphone" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="null" />
+              <option name="url" value="/QQ2Iphone" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[{&quot;comment&quot;:&quot; &quot;,&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;QQ&quot;,&quot;type&quot;:&quot;String&quot;,&quot;value&quot;:&quot;1277676309&quot;}]" />
+              <option name="urlParamsKeyValueListText" value="QQ=1277676309" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/QQ2Iphone?QQ=%31%32%37%37%36%37%36%33%30%39&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;status&quot;:200,&quot;message&quot;:&quot;查询成功&quot;,&quot;qq&quot;:&quot;1277676309&quot;,&quot;phone&quot;:&quot;18111457903&quot;,&quot;phonediqu&quot;:&quot;四川省乐山市电信&quot;}" />
+          <option name="url" value="/QQ2Iphone" />
+        </ResponseHistory>
+        <ResponseHistory>
           <option name="className" value="com.deaifish.boot3.openapi.controller.EmpController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
@@ -376,104 +480,6 @@
               <option name="originUrl" value="/person/get" />
               <option name="pathParamsKeyValueListJson" value="[]" />
               <option name="returnDocument" value="{&quot;id&quot;:&quot;No comment,Type =Number&quot;,&quot;name&quot;:&quot;No comment,Type =String&quot;,&quot;age&quot;:&quot;No comment,Type =Number&quot;}" />
-              <option name="url" value="/person/get" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;cxx&quot;,&quot;age&quot;:21}" />
-          <option name="url" value="/person/get" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-09-redis7" />
-          <option name="method" value="savePerson" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-              <option name="method" value="savePerson" />
-              <option name="methodDescription" value="savePerson" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/person/save" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/person/save" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/person/save&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="ok" />
-          <option name="url" value="/person/save" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.deaifish.boot.redis7.controller.OrderController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-09-redis7" />
-          <option name="method" value="addOrder" />
-          <option name="methodType" value="POST" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot.redis7.controller.OrderController" />
-              <option name="method" value="addOrder" />
-              <option name="methodDescription" value="addOrder" />
-              <option name="methodType" value="POST" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/order/add" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="url" value="/order/add" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/order/add&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/order/add" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-09-redis7" />
-          <option name="method" value="savePerson" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-              <option name="method" value="savePerson" />
-              <option name="methodDescription" value="savePerson" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/person/save" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
-              <option name="url" value="/person/get" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/person/get&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8,application/json&#13;&#10;    User-Agent: Restful Fast Request/2023.1.9&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="url" value="/person/get" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="boot3-09-redis7" />
-          <option name="method" value="savePerson" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.deaifish.boot.redis7.controller.PersonController" />
-              <option name="method" value="savePerson" />
-              <option name="methodDescription" value="savePerson" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/person/save" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="&quot;No comment,Type =String&quot;" />
               <option name="url" value="/person/get" />
               <option name="urlEncodedKeyValueListJson" value="[]" />
               <option name="urlParamsKeyValueListJson" value="[]" />

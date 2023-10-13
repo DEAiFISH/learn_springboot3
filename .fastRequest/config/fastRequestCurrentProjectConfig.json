@@ -53,6 +53,15 @@
 				}
 			],
 			"name":"boot3-10-openAPI"
+		},
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8080"
+				}
+			],
+			"name":"boot3-11-rpc"
 		}
 	],
 	"envList":[
@@ -74,7 +83,8 @@
 		"boot3-07-core",
 		"boot3-08-robot-starter",
 		"boot3-09-redis7",
-		"boot3-10-openAPI"
+		"boot3-10-openAPI",
+		"boot3-11-rpc"
 	],
 	"syncModel":{
 		"branch":"master",

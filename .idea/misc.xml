@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/boot3-08-robot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-07-core/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-10-openAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-11-rpc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
